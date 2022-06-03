@@ -1,0 +1,10 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: pipelines-service
+  namespace: openshift-gitops
+
+spec:
+  source:
+    repoURL: https://github.com/fgiloux/pipelines-service.git
+    targetRevision: main

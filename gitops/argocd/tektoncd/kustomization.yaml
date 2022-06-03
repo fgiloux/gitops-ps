@@ -1,0 +1,4 @@
+resources:
+- https://github.com/bnallapeta/pipelines-service.git/gitops/argocd/tektoncd?ref=phase_one
+
+

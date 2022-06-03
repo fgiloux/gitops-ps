@@ -1,0 +1,6 @@
+resources:
+- https://github.com/bnallapeta/pipelines-service.git/gitops/argocd?ref=phase_one
+patchesStrategicMerge:
+- repo-url.yaml
+
+
